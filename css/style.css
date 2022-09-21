@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color:  rgb(221, 241, 241);
+}
+.top-div{
+    background-color: rgb(216, 241, 241);
+    position: relative;
+    padding-top: 100px;
+}
+.top-div span{
+    text-decoration: underline;
+}
+h1{
+    font-size: 5.625rem;
+    margin-top: 50px auto 0 auto;
+    color:  #66BFBF;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+}
+.top-div p{
+    font-size: 2.5rem;
+    font-weight: normal;
+    color:  #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+}
+h2,
+h3,
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-decoration: none;
+}
+.top-cloud{
+  position: absolute;
+  right: 50px;
+  top: 30px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.middle-container{
+    margin: 100px 0 100px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.profile img{
+    width: 100px;
+    border-radius: 50%;
+}
+.doritos{
+    width: 200px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 40px;
+}
+.skill-1{
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 40px;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border-style: dotted;
+    color: #F2F2F2;
+    margin: 100px auto 100px;
+    width: 5%;
+    border-bottom: none;
+    border-width: 10px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+}
+.btn{
+    background-color: #11999E;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.btn:hover{
+    color: rgb(14, 87, 52);
+    background-color: #c5e9e9;
+}
+.contact-me h2, h3, p{
+    margin-bottom: 50px;
+}
+.contact-me p{
+    width: 40%;
+    margin: 0 auto 60px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 20px;
+}
+.bottom-container a{
+    margin: 0 20px 10px 20px;
+    font-size: 20px;
+}
+.bottom-container p{
+    margin: 40px 0 20px;
+    color: #F2F2F2;
+}
